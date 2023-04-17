@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {
+            border: 1px solid black;
+        }
+        .th{
+            background-color: yellow;
+            color: red;
+        }
+        th , td {
+            
+           background-color: rgb(29, 126, 253); 
+
+        }
+    </style>
+</head>
+<body> 
+    <table>
+       
+         
+        <tr>
+            <th colspan="2" class="th">Registration From</th>
+        </tr>
+        <tr>
+            <th>Enter Name</th>
+            <td><form><input type="text"></form></td>
+        </tr>
+        <th>Enter Password</th>
+            <td><form><input type="text"></form></td>
+        </tr>
+        <th>Enter Address</th>
+            <td><form><textarea name="email address" id="email" cols="30" rows="5"></textarea></form></td>
+        </tr>
+        <th>select Game</th>
+            <td><form>
+                <input type="checkbox" id="Game1" name="Game1" value="Game">
+                <label for="Game1"> Hockey</label><br>
+                <input type="checkbox" id="Game2" name="Game2" value="GAme">
+                <label for="Game2"> Football</label><br>
+                <input type="checkbox" id="Game3" name="Game3" value="Game">
+                <label for="Game3"> Badminton</label><br>
+                <input type="checkbox" id="Game4" name="Game4" value="Game">
+                <label for="Game1"> Cricket</label><br>
+                <input type="checkbox" id="Game5" name="Game5" value="Game">
+                <label for="Game5"> Volleyball</label><br><br><br></form></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td>
+            <form>
+                  <input type="radio" id="Male" name="Name" value="Male">
+                  <label for="Male">Male</label>
+                                  <input type="radio" id="Female" name="Name" value="Female">
+                  <label for="Name">Female</label><br>
+                  
+                </form> </td>
+                
+        </tr>
+        <tr>
+            <th>Select ur age</th>
+            <form>
+            <td>
+                <select name="select" id="select">
+                <option  value="select">Select</option>
+                </select>
+               
+            </td>
+        </tr>
+        <tr>
+            <th>Select Photo</th>
+            <td><form>
+                <label for="myfile"></label>
+                <input type="file" id="myfile" name="myfile"><br><br>
+                
+           </td>
+
+        </tr>
+        <tr>
+           <td colspan="2" style="text-align: center;">
+            <button type="button" onclick="alert('Hello World!')" style="width: 30%;">Click Me</button>
+        
+            <button type="button"  onclick="alert('reset data')" style="width: 30%;">reset</button>
+            
+            <button  onclick="alert('sucessfully submit')" style="width: 30%;">Submit Form</button>
+        </td>
+               
+       
+        
+        </tr>
+    </form> 
+    </table>
+</html>
